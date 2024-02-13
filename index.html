@@ -7,7 +7,10 @@
 
     <!-- custom css  -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Icons -->
+
+     <!-- Bootstrap CSS -->
+     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
       <!-- our project just needs Font Awesome Solid + Brands -->
      <link href="assets/css/fontawesome-free-6.5.1-web/css/fontawesome.css" rel="stylesheet">
     <link href="assets/css/fontawesome-free-6.5.1-web/css/brands.css" rel="stylesheet">
@@ -15,50 +18,58 @@
 </head>
 <body>
 
-    <nav>
+    <div class="nav">
         <a href='#home'><i class="fa-solid fa-house"></i><div class="popup">Home</div></a> 
         <a href='#about'><i class="fa-solid fa-address-card"></i><div class="popup">About</div></a> 
         <a href='#menu'><i class="fa-solid fa-bars"></i><div class="popup">Menu</div></a> 
         <a href='#gallery'><i class="fa-solid fa-image"></i><div class="popup">Gallery</div></a> 
         <a href='#blog'><i class="fa-solid fa-blog"></i><div class="popup">Blog</div></a> 
         <a href='#contact'><i class="fa-solid fa-phone-volume"></i><div class="popup">Contact</div></a>  
-    </nav>
+    </div>
 
-    <section id="home">
-        <h1 class="h1-title">
-            Welcome to
-            <span>Profit's</span>
-            Kitchen.
-        </h1>
-        <p>This is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam eius
-            vel tempore consectetur nesciunt? Nam eius tenetur recusandae optio aperiam.
-        </p>
-        <div class="row">
-            <div class="col-lg-4 banners">
-                <div class="banner-img-wp">
-                    <!-- <div class="banner-img" style="background-image: url(assets/img/profile1.jpg);"></div> -->
-                    <img class="banner-img" src="assets/img/main.jpg" class="about-img" alt="">
+    <div id="home" class="container">
+        <div class="col-lg-12">
+                <div class="col-lg-12">
+                    <h1 class="h1-title">
+                        Welcome to
+                        <span>Profit's</span>
+                        Kitchen.
+                    </h1>
+                    <p>This is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam eius
+                        vel tempore consectetur nesciunt? Nam eius tenetur recusandae optio aperiam.
+                    </p>
                 </div>
-                <div class="banner-img-wp">
-                    <!-- <div class="banner-img" style="background-image: url(assets/img/profile1.jpg);"></div> -->
-                    <img class="banner-img" src="assets/img/main.jpg" class="about-img" alt="">
-                </div>
-                <!-- <div class="banner-img-wp">
-                    <img class="banner-img" src="assets/img/main.jpg" class="about-img" alt="">
-                </div> -->
-                <div class="banner-img-wp">
-                    <img class="banner-img" src="assets/img/main.jpg" class="about-img" alt="">
-                </div>
-            </div>
+                <!-- <div class="row"> -->
+                    <div class="d-md-flex justify-content-center">
+                        <div class="banner-img-wp1">
+                            <!-- <div class="banner-img" style="background-image: url(assets/img/profile1.jpg);"></div> -->
+                            <img class="banner-img" src="assets/img/main.jpg" class="about-img" alt="">
+                        </div>
+                        <div class="banner-img-wp2">
+                            <!-- <div class="banner-img" style="background-image: url(assets/img/profile1.jpg);"></div> -->
+                            <img class="banner-img" src="assets/img/main.jpg" class="about-img" alt="">
+                        </div>
+                        <!-- <div class="banner-img-wp1">
+                            <img class="banner-img" src="assets/img/main.jpg" class="about-img" alt="">
+                        </div>  -->
+                        <!-- <div class="banner-img-wp2">
+                            <img class="banner-img" src="assets/img/main.jpg" class="about-img" alt="">
+                        </div> -->
+                    </div>
+                <!-- </div> -->
         </div>
-    </section>
+    </div>
 
-    <section id="about">
+    <div id="about" class="container">
         <div class="section-title">
             <h2>About</h2>
         </div>
-    </section>
+    </div>
 
-    
+    <!-- Bootstrap JavaScript (optional) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Main Javascript -->
+<script src="assets/js/main.js"></script>
 </body>
 </html>
